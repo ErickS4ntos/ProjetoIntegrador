@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: #121926;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
+h2{
+    font-size: 4.5rem;
+}
+h3{
+    font-size: 3.5rem;
+}
+h4{
+    font-size: 2.5rem;
+}
+a{
+    text-decoration: none;
+}
+
+.cadastrar{
+    
+}
+
+.pre-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.maior{
+    display: flex;
+    flex-direction: row;
+}

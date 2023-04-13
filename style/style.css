@@ -1,0 +1,332 @@
+/*#121926
+#63BBF2
+#3E6E8C
+#5A98BF
+#77DCF2*/
+
+/*Formatação geral do html*/
+
+/*:root{
+    primary-color: #121926;
+    second-color: #deedf7;   
+    third-color: #93b3c7;
+    fourth-color: #3E6E8C;
+    white: #fff;
+    gap: 3rem;
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    
+    
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: #121926;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
+h2{
+    font-size: 4.5rem;
+}
+h3{
+    font-size: 3.5rem;
+}
+h4{
+    font-size: 2.5rem;
+}
+a{
+    text-decoration: none;
+}
+
+/*Formatação de classes que se repetem no html*/
+
+.main-content{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.blue-content{
+    background-image: url('../img-bg/image-bg.svg');
+    background-position: center center;
+    color: white;
+}
+
+.white-content{
+    color: #121926;
+}
+
+/*.distance-top h1{
+    padding-top: 3rem;
+}*/
+
+.min-height {
+    min-height: 100vh;
+}
+
+.images img{
+    max-width: 100%;
+    height: auto;
+}
+
+.button{
+    border: 2px solid #3E6E8C;
+    border-radius: 25px;
+    padding: 1.2rem 2.5rem;
+    background-color: #93b3c7;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    transition: all 500ms ease-in-out;
+}
+
+.button:hover{
+    border: 2px solid #3E6E8C;
+    border-radius: 25px;
+    padding: 1.2rem 2.5rem;
+    background-color: #3E6E8C;
+    text-transform: uppercase;
+    margin-top: 3rem;
+}
+
+.menu-nav .button a{
+    padding: 0;
+    margin: 0;
+    color: #121926;
+}
+
+.menu .menu-content .menu-nav .button a:hover{
+    color: #121926;
+}
+
+.button2{
+    border: 2px solid rgb(196, 173, 79);
+    border-radius: 25px;
+    padding: 1.2rem 2.5rem;
+    background-color: rgb(253, 208, 23);
+    text-transform: uppercase;
+    margin-top: 3rem;
+    transition: .3s linear;
+    width: 25rem;
+}
+
+.button2:hover{
+    transform: scale(1.1);
+}
+
+.button2 a{
+    padding: 0;
+    margin: 0;
+    color:#121926;
+}
+
+.button3{
+    border: 2px solid #3E6E8C;
+    border-radius: 25px;
+    padding: 1.2rem 2.5rem;
+    background-color: #93b3c7;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    transition: all 500ms ease-in-out;
+    width: 25rem;
+}
+
+.button3:hover{
+    background-color: #3E6E8C;
+}
+
+.button3 > a{
+    padding: 0;
+    margin: 0;
+    color: #121926;
+}
+
+/*Formatação do menu*/
+
+.menu{
+    background-image: url('../img-bg/image-bg.svg');
+}
+
+.menu-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;   
+    padding-bottom: 0px;
+}
+
+.menu-content h1{
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.menu-content h1 a{
+    color: white;
+}
+
+.menu-content ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu-content ul li a{
+    display: block;
+    color: #deedf7;
+    padding: 2rem;
+    margin-top: 3rem;
+    transition: all 500ms ease-in-out;
+}
+
+.menu-content ul li a:hover{
+    color: #3E6E8C;
+}
+
+/*Formatação da intro*/
+
+.intro-content{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 3rem;
+    align-items: center;
+    height: 100vh; /*Coloca a grid como tamanho total da tela, para alinhar no meio*/
+}
+
+.intro-text-content, .images{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.intro-text-content h1{
+    line-height: 1.2;
+}
+
+.quadrado-flutuante{
+    display: flex;
+    gap: 3rem;
+    height: 15rem;
+}
+
+.quadrado{
+    height: 12rem;
+    width: 100%;
+    border: 1px solid #93b3c7;
+    border-radius: 8px;
+    margin-top: 3rem;
+    text-align: center;
+    transition: .3s linear;
+}
+
+.quadrado:hover{
+    transform: scale(1.1);
+    border: 1px solid #6dbeec;
+}
+
+.quadrado p{
+    margin-top: 1.3rem;
+}
+
+.quadrado .p-texto{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.quadrado p a{
+    color: #93b3c7;
+}
+
+/*Formatação da segunda parte*/
+
+.second-part-content{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    height: 100vh; /*Coloca a grid como tamanho total da tela, para alinhar no meio*/
+}
+
+.second-text-content, .images{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+#futuristic{
+    height: 50rem;
+}
+
+.quadrado2{
+    height: 30rem;
+    width: 100%;
+    border: 1px solid #93b3c7;
+    border-radius: 10px;
+    margin-top: 3rem;
+    text-align: center;
+    transition: .3s linear;
+}
+
+/*Formatação do Footer*/
+
+
+.footer {
+    height: 50vh;
+    background-color: #121926;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--gap);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logoFooter{
+}
+
+.nossasRedes{
+  margin: auto;
+  color: #b6b1ff;
+}
+
+.icone-Color{
+  color:#fff;
+  
+  margin: auto;
+}
+
+.icones{
+  
+  margin: auto;
+  color: #b6b1ff
+}
+
+.contatos > a{
+  
+  margin: auto;
+  color: #b6b1ff;
+}
+
+.nossosContatos{
+  margin: auto;
+  color: #b6b1ff
+}
+
+/* CSS da página cadastra.php */
+
+.cadastrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
