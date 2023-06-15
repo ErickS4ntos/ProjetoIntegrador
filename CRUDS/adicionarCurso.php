@@ -15,3 +15,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $query = "INSERT INTO curso (titulo, descricao, carga_horaria, id_curso_usuario, id_instrutor, id_certificado, id_categoria) VALUES ('$titulo', '$descricao', $carga_horaria, $id_curso_usuario, $id_instrutor, $id_certificado, $id_categoria)";
   mysqli_query($conexao, $query);
 
+}
