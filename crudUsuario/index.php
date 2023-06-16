@@ -26,7 +26,7 @@
                         <a class="nav-link" href="?page=novo">Novo Usuário</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="?page=listar">Listar Usuários</a>
+                        <a class="nav-link" href="listar-usuario.php">Listar Usuários</a>
                     </li>
                 </ul>
             </div>

@@ -5,11 +5,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   // Recebe os dados do formulário
   $nome = $_POST['nome'];
   $email = $_POST['email'];
-  $senha = $_POST['senha']
+  $senha = $_POST['senha'];
 
   // Insere os dados na tabela
-  $query = "INSERT INTO tb_usuario (nome, email, senha) VALUES ('$nome', '$id_curso', '$senha')";
-  mysqli_query($conexao, $query);
+  $query = "INSERT INTO Usuario (nome, email, senha) VALUES ('$nome', '$email', '$senha')";
+  mysqli_query($mysqli, $query);
 
   // Redireciona para a página principal
   header('Location: index.php');

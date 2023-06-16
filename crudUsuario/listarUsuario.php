@@ -1,6 +1,7 @@
 <h1>Listar Usuários</h1>
 
 <?php
+include('config.php');
 $sql = "SELECT * FROM tb_usuario";
 
 //conexao ....
