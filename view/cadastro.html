@@ -1,26 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="style/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="icon" type="image/png" sizes="16x16" href="../img-icon/favicon-16x16.png">
+  <link rel="stylesheet" href="../style/entrar.css">
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="icon" type="image/png" sizes="16x16" href="../img-icon/favicon-16x16.png">
   <title>Cadastre-se</title>
 </head>
-<body>
+
+<!--<body>
   <main>
     <div id="area">
       <form method="post" action="/salvar.php" id="formulario" autocomplete="off">
-      <fieldset>
-        <legend>Cadastre-se aqui</legend>
-        Nome:<input type="text" class="campo_nome" id="nome" required><br><br>
-        Email:<input type="email" class="campo_email" id="email" required><br><br>
-        Senha:<input type="password" name="senha" id="senha" required><br><br>
+        <fieldset>
+          <legend>Cadastre-se aqui</legend>
+          Nome:<input type="text" class="campo_nome" id="nome" required><br><br>
+          Email:<input type="email" class="campo_email" id="email" required><br><br>
+          Senha:<input type="password" name="senha" id="senha" required><br><br>
 
-        <button type="submit">Cadastrar</button>
+          <button type="submit">Cadastrar</button>
         </fieldset>
       </form>
     </div>
   </main>
 </body>
-</html>
+
+</html>-->
+
+<body>
+  <header class="menu">
+    <section class="menu-content main-content">
+      <a href="../index.html"><img id="logo" src="../img-icon/LogoTigerFinal.png" alt="LOGO"></a>
+
+      <nav class="menu-nav">
+        <ul>
+          <li><a href="quemSomos.html">Quem somos</a></li>
+          <li><a href="#footer">Fale conosco</a></li>
+          <li><a href="entrar.html">Entrar</a></li>
+          <li><button class="button"><a href="cadastro.html">Cadastre-se</a></button></li>
+        </ul>
+      </nav>
+    </section>
+  </header>
+  <main class="quem-somos blue-content">
+    <section class="intro-content">
+      <aside class="images">
+        <img src="../img-section/image-intro.svg" alt="Start building">
+      </aside>
+      <div class="black-bg form__group field">
+        <form>
+          <form method="post" action="/salvar.php" id="formulario" autocomplete="off">
+            <fieldset>
+              <h4>Cadastre-se aqui</h4>
+              <input type="text" placeholder="Nome" class="form__field" id="nome" required><br><br>
+              <input type="email" placeholder="e-mail" class="form__field" id="email" required><br><br>
+              <input type="password" placeholder="Senha" class="form__field" name="senha" id="senha" required><br><br>
+              <button type="submit" class="btn btn-secondary">Cadastrar</button>
+            </fieldset>
+          </form>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer id="footer" class="footer">
+    <div>
+      <a href="/#" class="logoFooteer"><img id="logoFooter" src="img-icon/LogoTigerFinal.png" alt="LOGO"></a>
+    </div>
+    <div class="icones">
+      <h4 class="nossasRedes">Nossas redes</h4><br>
+      <a href="#" class="icone-Color"><i class="fab fa-facebook-f"></i></a>
+
+      <a href="#" class="icone-Color"><i class="fab fa-linkedin-in"></i></a>
+
+      <a href="#" class="icone-Color"><i class="fab fa-instagram"></i></a>
+
+      <a href="#" class="icone-Color"><i class="fab fa-twitter"></i></a>
+
+      <a href="#" class="icone-Color"><i class="fab fa-github"></i></a>
+    </div>
+    <div>
+      <h4 class="nossosContatos">Contatos:</h4>
+      <a href="#" class="icone-Color">Telefone: (61)9999-9999</a><br>
+      <a href="#" class="icone-Color">e-mail: logo@gmail.com</a><br>
+    </div>
+  </footer>
+</body>

@@ -15,55 +15,59 @@
     gap: 3rem;
 }*/
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     font-size: 62.5%;
-    
-    
+
+
 }
 
-body{
+body {
     font-family: 'Inter', sans-serif;
     color: #121926;
     font-size: 1.6rem;
     line-height: 1.5;
 }
 
-h1{
+h1 {
     font-size: 5rem;
     font-weight: bold;
 }
-h2{
+
+h2 {
     font-size: 4.5rem;
 }
-h3{
+
+h3 {
     font-size: 3.5rem;
 }
-h4{
+
+h4 {
     font-size: 2.5rem;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
 /*Formatação de classes que se repetem no html*/
 
-.main-content{
+.main-content {
     max-width: 120rem;
     margin: 0 auto;
 }
 
-.blue-content{
+.blue-content {
     background-image: url('../img-bg/image-bg.svg');
     background-position: center center;
     color: white;
 }
 
-.white-content{
+.white-content {
     color: #121926;
 }
 
@@ -75,12 +79,12 @@ a{
     min-height: 100vh;
 }
 
-.images img{
+.images img {
     max-width: 100%;
     height: auto;
 }
 
-.button{
+.button {
     border: 2px solid #3E6E8C;
     border-radius: 25px;
     padding: 1.2rem 2.5rem;
@@ -90,7 +94,7 @@ a{
     transition: all 500ms ease-in-out;
 }
 
-.button:hover{
+.button:hover {
     border: 2px solid #3E6E8C;
     border-radius: 25px;
     padding: 1.2rem 2.5rem;
@@ -99,17 +103,17 @@ a{
     margin-top: 3rem;
 }
 
-.menu-nav .button a{
+.menu-nav .button a {
     padding: 0;
     margin: 0;
     color: #121926;
 }
 
-.menu .menu-content .menu-nav .button a:hover{
+.menu .menu-content .menu-nav .button a:hover {
     color: #121926;
 }
 
-.button2{
+.button2 {
     border: 2px solid rgb(196, 173, 79);
     border-radius: 25px;
     padding: 1.2rem 2.5rem;
@@ -120,17 +124,17 @@ a{
     width: 25rem;
 }
 
-.button2:hover{
+.button2:hover {
     transform: scale(1.1);
 }
 
-.button2 a{
+.button2 a {
     padding: 0;
     margin: 0;
-    color:#121926;
+    color: #121926;
 }
 
-.button3{
+.button3 {
     border: 2px solid #3E6E8C;
     border-radius: 25px;
     padding: 1.2rem 2.5rem;
@@ -141,11 +145,11 @@ a{
     width: 25rem;
 }
 
-.button3:hover{
+.button3:hover {
     background-color: #3E6E8C;
 }
 
-.button3 > a{
+.button3>a {
     padding: 0;
     margin: 0;
     color: #121926;
@@ -153,34 +157,34 @@ a{
 
 /*Formatação do menu*/
 
-.menu{
+.menu {
     background-image: url('../img-bg/image-bg.svg');
 }
 
-.menu-content{
+.menu-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 0px;   
+    padding-top: 0px;
     padding-bottom: 0px;
 }
 
-.menu-content h1{
+.menu-content h1 {
     font-size: 3rem;
     margin-top: 3rem;
 }
 
-.menu-content h1 a{
+.menu-content h1 a {
     color: white;
 }
 
-.menu-content ul{
+.menu-content ul {
     display: flex;
     align-items: center;
     list-style: none;
 }
 
-.menu-content ul li a{
+.menu-content ul li a {
     display: block;
     color: #deedf7;
     padding: 2rem;
@@ -188,37 +192,39 @@ a{
     transition: all 500ms ease-in-out;
 }
 
-.menu-content ul li a:hover{
+.menu-content ul li a:hover {
     color: #3E6E8C;
 }
 
 /*Formatação da intro*/
 
-.intro-content{
+.intro-content {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: 3rem;
     align-items: center;
-    height: 100vh; /*Coloca a grid como tamanho total da tela, para alinhar no meio*/
+    height: 100vh;
+    /*Coloca a grid como tamanho total da tela, para alinhar no meio*/
 }
 
-.intro-text-content, .images{
+.intro-text-content,
+.images {
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
 }
 
-.intro-text-content h1{
+.intro-text-content h1 {
     line-height: 1.2;
 }
 
-.quadrado-flutuante{
+.quadrado-flutuante {
     display: flex;
     gap: 3rem;
     height: 15rem;
 }
 
-.quadrado{
+.quadrado {
     height: 12rem;
     width: 100%;
     border: 1px solid #93b3c7;
@@ -228,45 +234,47 @@ a{
     transition: .3s linear;
 }
 
-.quadrado:hover{
+.quadrado:hover {
     transform: scale(1.1);
     border: 1px solid #6dbeec;
 }
 
-.quadrado p{
+.quadrado p {
     margin-top: 1.3rem;
 }
 
-.quadrado .p-texto{
+.quadrado .p-texto {
     font-size: 1.3rem;
     text-align: center;
 }
 
-.quadrado p a{
+.quadrado p a {
     color: #93b3c7;
 }
 
 /*Formatação da segunda parte*/
 
-.second-part-content{
+.second-part-content {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     gap: 3rem;
     align-items: center;
-    height: 100vh; /*Coloca a grid como tamanho total da tela, para alinhar no meio*/
+    height: 100vh;
+    /*Coloca a grid como tamanho total da tela, para alinhar no meio*/
 }
 
-.second-text-content, .images{
+.second-text-content,
+.images {
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
 }
 
-#futuristic{
+#futuristic {
     height: 50rem;
 }
 
-.quadrado2{
+.quadrado2 {
     height: 30rem;
     width: 100%;
     border: 1px solid #93b3c7;
@@ -291,42 +299,40 @@ a{
     text-align: center;
 }
 
-.logoFooter{
+.logoFooter {}
+
+.nossasRedes {
+    margin: auto;
+    color: #b6b1ff;
 }
 
-.nossasRedes{
-  margin: auto;
-  color: #b6b1ff;
+.icone-Color {
+    color: #fff;
+
+    margin: auto;
 }
 
-.icone-Color{
-  color:#fff;
-  
-  margin: auto;
+.icones {
+
+    margin: auto;
+    color: #b6b1ff
 }
 
-.icones{
-  
-  margin: auto;
-  color: #b6b1ff
+.contatos>a {
+
+    margin: auto;
+    color: #b6b1ff;
 }
 
-.contatos > a{
-  
-  margin: auto;
-  color: #b6b1ff;
-}
-
-.nossosContatos{
-  margin: auto;
-  color: #b6b1ff
+.nossosContatos {
+    margin: auto;
+    color: #b6b1ff
 }
 
 /* CSS da página cadastra.php */
 
-.cadastrar{
+.cadastrar {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
